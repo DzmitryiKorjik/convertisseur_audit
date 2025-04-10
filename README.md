@@ -17,7 +17,7 @@
 1. Clone ce projet dans ton répertoire local en utilisant git :
 
     ```bash
-    git clone https://github.com/ton-utilisateur/convertisseur-csv-en-excel.git
+    git clone https://github.com/DzmitryiKorjik/convertisseur_audit.git
     ```
 
 ### Étape 2 : Créer un environnement virtuel
@@ -25,7 +25,7 @@
 2. Crée un environnement virtuel pour isoler les dépendances du projet :
 
     ```bash
-    cd convertisseur-csv-en-excel
+    cd convertisseur_audit
     python -m venv env
     ```
 
