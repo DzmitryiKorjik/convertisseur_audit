@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>Convertisseur TXT/CSV → Excel</title>
+</head>
+<body>
+    <h2>Convertir un fichier TXT/CSV en Excel</h2>
+    {% if erreur %}
+        <p style="color:red;">{{ erreur }}</p>
+    {% endif %}
+    <form method="post" enctype="multipart/form-data">
+        {% csrf_token %}
+        {{ form.as_p }}
+        <button type="submit">Convertir</button>
+    </form>
+</body>
+</html>
